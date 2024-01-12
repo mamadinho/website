@@ -9,22 +9,35 @@ const Hero = () => (
   <Section>
     <HeroAvatar
       title={
+        // <>
+        //   Hi there, I'm <GradientText>Mamad</GradientText> 👋
+        // </>
         <>
-          Hi there, I'm <GradientText>Mamad</GradientText> 👋
+        <div class="font-extrabold text-3xl md:text-4xl [text-wrap:balance] bg-clip-text text-transparent bg-gradient-to-r from-slate-200/60 to-50% to-slate-200"> 
+        your lovely{' '}
+          <span class="text-indigo-500 inline-flex flex-col h-[calc(theme(fontSize.3xl)*theme(lineHeight.tight))] md:h-[calc(theme(fontSize.4xl)*theme(lineHeight.tight))] overflow-hidden">
+            <ul class="block animate-text-slide-2 text-left leading-tight [&_li]:block">
+                <li>nerd 🤓</li>
+                <li>ai engineer 🤖</li>
+                <li aria-hidden="true">nerd 🤓</li>
+            </ul>
+          </span>
+        </div>
         </>
       }
       description={
         <>
-          A philomath yet clinophile, continuing to strive under any condition.
-          Currently an AI Research Engineer at{' '}
+          a philomath yet clinophile, continuing to strive under any condition.
+          currently an <b>ai</b> research engineer at{' '}
           <a
             className="text-red-400 hover:underline"
             href="https://delameta.com/"
           >
-            Delameta Bilano
+            delameta bilano
           </a>
-          . Inspired to do Master in Computer Science focusing on Machine
-          Learning to create breaktrough in AI.
+          . inspired to do master in computer science focusing on machine
+          learning to create breaktrough in <b>ai</b>, previously studied 
+          at faculty of computer science <span class="text-yellow-500">universitas indonesia</span>.
         </>
       }
       avatar={
