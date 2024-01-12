@@ -46,3 +46,42 @@ A graph that shows the change of total sales and profit each month is suitable t
 From the visualization above, the sales and profit of the supermarket are fluctuative, while both the sale and order have the same pattern.
 
 --- 
+
+### What kind of things that brings us the most profit and sales?
+
+We want to know about the categories and subcategories’ performance over a quarter, and how it performs compared to previous quarter. This can give us some information whether some categories are more profitable, or even give us some loss.
+
+![alt text](/src/images/dashboard-3.webp 'Image')
+
+The plot above has shown that most of our product went down on sales on Q3 2013, given many products even has more than -20% on sales. Even we know that the Tables category has bad performance in terms of profit.
+
+---
+
+### Which type of customer has the most sales?
+
+This may be one of the most deciding factors in determining who can we analyse more to increase the profit of our supermarket. Also, we can know more about the characteristic of our customer as a whole.
+
+![alt text](/src/images/dashboard-4.webp 'Image')
+
+We can see that almost half of our customer is normal consumer, while the other half is either corporate or home office.
+
+--- 
+
+### Which type of customer has the most sales?
+
+An interactive map that shows the sales and profit for each nation can be very helpful as we can get to know which nation/continent can be analysed more as it may have the least sales or the most sales. Also, we want to know which nations gives us the most sales, so we can bring more attention to these nations.
+
+![alt text](/src/images/dashboard-5.webp 'Image')
+![alt text](/src/images/dashboard-6.webp 'Image')
+
+---
+
+## Conclusion and Future Work
+
+From the creation of the dashboard above, we can create easily using Tableau and creative minds to give information about the data we have. Starting from just showing the total sales and profit from the supermarket, to creating bar graph to know about the performance of each category and subcategory and its growth, until creating an interactive map to see each nation’s sale from our supermarket, we have created an interactive dashboard.
+
+Extensive research on how supermarket measures its performance is needed as this analysis is only based on my knowledge on supermarket, and I still have zero experience in this domain.
+
+You can try the dashboard by opening this [link](https://public.tableau.com/app/profile/ahmad.irfan.luthfi.tumbuan/viz/SupermarketSalesReport_16701537730630/Dashboard1?publish=yes).
+
+*This project cannot be done without the help of Pacmann’s Sekolah Data program because I learned so much there. Kudos to them!*
